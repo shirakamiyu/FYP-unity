@@ -19,12 +19,20 @@
 
 </div>
 
+備用下載地址: https://drive.google.com/drive/folders/12gVKVVvhTwfpDIvIvk0nN38UfOLZo1QM?usp=sharing
+
+<hr>
+
 ## 1.0.13
 重新設計應用UI, 包括
 - 按鈕
 - 美術元素
 - 開屏介紹
 - 切換效果
+  
+## 1.0.13
+為沙灘模型添加背景音樂
+
 <hr>
 
 ## 未來開發動向--年底前完成

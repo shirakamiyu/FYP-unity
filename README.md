@@ -54,3 +54,6 @@
 - [ ] 利用AI: comfyUI生成統一風格的插圖
 
 <hr>
+
+<sub>評分系統，連接DB >>> ITP4903，ITP4922    
+限制域名訪問SDK（Vuforia，ARCore） >>> </sub>

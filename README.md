@@ -64,7 +64,8 @@ APP安裝包下載地址: https://drive.google.com/drive/folders/12gVKVVvhTwfpDI
 - 優化旁白播放邏輯，轉用中英文按鈕，根據已偵測場景切換播放源
 - 補全所有場景的中文旁白
 
-- 
+
+   [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/shirakamiyu/FYP-unity)
 <hr>
 
 ## 未來開發動向--年底前完成

@@ -7,19 +7,23 @@
   以卡通風格設計的動物模型, 使孩子可以認識動物的特點  
 <hr>
 
+> | Unity editor version: 6000.0.51 |   
+> How to download the unity file of this AR project   
 > Please download all files as .zip file  
 > Remember that you also need to download the files in tag which is same as the title of branch that you downloaded  
 > Please put files of tag in correct file path that shown in tag
 
-
+> | Unity引擎版本: 6000.0.51 |  
+> 下載前請留意下載的版本（1.0.xx）  
 > 請根據對應分支名稱, 下載相應tag中的文件  
-> 將文件移動到正確的路徑
+> 將文件移動到正確的路徑避免項目出現錯誤
 
 <hr>
 
 </div>
 
-備用下載地址: https://drive.google.com/drive/folders/12gVKVVvhTwfpDIvIvk0nN38UfOLZo1QM?usp=sharing
+APK file download: https://drive.google.com/drive/folders/12gVKVVvhTwfpDIvIvk0nN38UfOLZo1QM?usp=sharing   
+APP安裝包下載地址: https://drive.google.com/drive/folders/12gVKVVvhTwfpDIvIvk0nN38UfOLZo1QM?usp=sharing   
 
 <hr>
 
@@ -58,7 +62,7 @@
 ## 1.0.19 （有待更新）
 - UI優化3.0
 - 優化旁白播放邏輯，轉用中英文按鈕，根據已偵測場景切換播放源
-- 
+- 補全所有場景的中文旁白
 
 - 
 <hr>
@@ -69,8 +73,12 @@
 - [x] 調整模型權重 (有待新增到未來版本中)
 - [x] 添加場景音效 （九月内）
 - [ ] 增加更多場景：草原、高山 （十一月） >>> （鼠鼠挣扎中）
-- [x] 整合多個mixamo動作為一
-- [x] 模型動作需分開，不能共享
+- [x] 整合多個mixamo動作為一   
+      >>> 透過Unity Controller可以整合多個動作，包括兩個動作之間銜接的長度 >>> 最後一個動作會不斷loop   
+      >>>>>>> P.S 需要在帶有動作且已轉換人型骨骼的fbx文件中找到xixamo.com（多爲以上名稱）的部分按下ctrl+D取得單獨的animation文件   
+- [x] 模型動作需分開，不能共享   
+      >>> 原帶有骨架的fbx文件apply unity的人型骨骼后添加animation clip會出現上下移動而不是實際動作   
+      >>> 骨架文件導入mixamo然後下載帶有動作的fbx文件（duck_waving.fbx）可以使animation順利播放 【問題解決】   
 
 ### 實體開發（十一月内） >>>（狗）
 - [x] 完善故事線  
@@ -79,5 +87,5 @@
 
 <hr>
 
-<sub>評分系統，連接DB >>> ITP4903，ITP4922    
+<sub>評分系統，連接DB >>> ITP4903，ITP4922 >>> 透過家中電腦作爲數據庫服務器接收評分及意見，以端口轉發使外部網絡能夠訪問（數據庫以XAMPP的MyPHPadmin運行）    
 限制域名訪問SDK（Vuforia，ARCore） >>> </sub>

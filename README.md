@@ -65,9 +65,9 @@ APP安裝包下載地址: https://drive.google.com/drive/folders/12gVKVVvhTwfpDI
 - 補全所有場景的中英文旁白
 - 逐步完整所有場景模型動畫
 - 增加新場景（草原、高山）    
-
-
-   [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/shirakamiyu/FYP-unity)
+   
+   
+   [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/shirakamiyu/FYP-unity)   
 <hr>
 
 ## 未來開發動向--年底前完成
@@ -83,7 +83,7 @@ APP安裝包下載地址: https://drive.google.com/drive/folders/12gVKVVvhTwfpDI
       >>> 原帶有骨架的fbx文件apply unity的人型骨骼后添加animation clip會出現上下移動而不是實際動作   
       >>> 骨架文件導入mixamo然後下載帶有動作的fbx文件（duck_waving.fbx）可以使animation順利播放 【問題解決】   
 
-### 實體開發（十一月内） >>>（狗）
+### 實體開發   
 - [x] 完善故事線  
 - [x] 繪製故事插圖   
 - [x] 利用AI: NanoBanana生成統一風格的插圖  

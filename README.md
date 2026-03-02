@@ -47,7 +47,7 @@ APP安裝包下載地址: https://drive.google.com/drive/folders/12gVKVVvhTwfpDI
 - 修復中文文本無法顯示問題   
 - 修復每次切換主畫面重複顯示版本資訊問題   
 - 説明界面重做    
-- 增加新場景（森林）  
+- 增加新場景（森林、小溪）  
 - 第一幕（沙灘場景）模型添加動畫
 - 優化UI
 
@@ -62,8 +62,9 @@ APP安裝包下載地址: https://drive.google.com/drive/folders/12gVKVVvhTwfpDI
 ## 1.0.19 
 - UI優化3.0
 - 優化旁白播放邏輯，轉用中英文按鈕，根據已偵測場景切換播放源
-- 補全所有場景的中文旁白
-- 
+- 補全所有場景的中英文旁白
+- 逐步完整所有場景模型動畫
+- 增加新場景（草原、高山）    
 
 
    [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/shirakamiyu/FYP-unity)

@@ -59,10 +59,11 @@ APP安裝包下載地址: https://drive.google.com/drive/folders/12gVKVVvhTwfpDI
 - 引入評分系統，連接數據庫
 - 增加新場景（非洲草原）    
 
-## 1.0.19 （有待更新）
+## 1.0.19 
 - UI優化3.0
 - 優化旁白播放邏輯，轉用中英文按鈕，根據已偵測場景切換播放源
 - 補全所有場景的中文旁白
+- 
 
 
    [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/shirakamiyu/FYP-unity)
@@ -71,9 +72,9 @@ APP安裝包下載地址: https://drive.google.com/drive/folders/12gVKVVvhTwfpDI
 ## 未來開發動向--年底前完成
 
 ### 應用開發
-- [x] 調整模型權重 (有待新增到未來版本中)
-- [x] 添加場景音效 （九月内）
-- [ ] 增加更多場景：草原、高山 （十一月） >>> （鼠鼠挣扎中）
+- [x] 調整模型權重   
+- [x] 添加場景音效   
+- [x] 增加更多場景：草原、高山   
 - [x] 整合多個mixamo動作為一   
       >>> 透過Unity Controller可以整合多個動作，包括兩個動作之間銜接的長度 >>> 最後一個動作會不斷loop   
       >>>>>>> P.S 需要在帶有動作且已轉換人型骨骼的fbx文件中找到xixamo.com（多爲以上名稱）的部分按下ctrl+D取得單獨的animation文件   

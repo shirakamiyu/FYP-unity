@@ -4,7 +4,10 @@
   
   以3D模型的方式呈現故事中的情節, 帶來**視覺與聽覺**的融合, 有助吸引孩子的興趣  
   與背景場景結合的音效, 讓孩子可以身臨其境了解所在地  
-  以卡通風格設計的動物模型, 使孩子可以認識動物的特點  
+  以卡通風格設計的動物模型, 使孩子可以認識動物的特點 
+
+  [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/shirakamiyu/FYP-unity)   
+  
 <hr>
 
 > | Unity editor version: 6000.0.51 |   
@@ -33,6 +36,8 @@ APK file download: https://drive.google.com/drive/folders/12gVKVVvhTwfpDIvIvk0nN
 APP安裝包下載地址: https://drive.google.com/drive/folders/12gVKVVvhTwfpDIvIvk0nN38UfOLZo1QM?usp=sharing   
 
 <hr>
+
+# 歷史版本咨詢
 
 ## 1.0.13
 重新設計應用UI, 包括
@@ -72,12 +77,17 @@ APP安裝包下載地址: https://drive.google.com/drive/folders/12gVKVVvhTwfpDI
 - 補全所有場景的中英文旁白
 - 逐步完整所有場景模型動畫
 - 增加新場景（草原、高山）    
+
+### 下載圖片
+
+- [場景圖片](./image_tracker)
+- ![01.png](./image_tracker/01.png)
+- [應用圖片](./screenshots)
+
    
-   
-   [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/shirakamiyu/FYP-unity)   
 <hr>
 
-## 未來開發動向--年底前完成
+## 開發動向
 
 ### 應用開發
 - [x] 調整模型權重   

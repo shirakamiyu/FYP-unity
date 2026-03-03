@@ -59,8 +59,8 @@ Please select the file with the highest (latest) version number for installation
 
 ━━━━━━━ ❖ ━━━━━━━
 
-> Note that the GitHub repository only contains Unity projects; the app installation package can be downloaded from the address below.   
-> 注意GitHub只包含unity項目，app安裝包需要在下方地址下載   
+> Note that the GitHub repository only contains Unity projects; the app installation package can be downloaded from the address above.   
+> 注意GitHub只包含unity項目，app安裝包需要在上方地址下載   
 
 ━━━━━━━ ❖ ━━━━━━━
 

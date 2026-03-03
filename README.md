@@ -114,6 +114,7 @@ Please select the file with the highest (latest) version number for installation
 - 優化旁白播放邏輯，轉用中英文按鈕，根據已偵測場景切換播放源
 - 補全所有場景的中英文旁白
 - 逐步完整所有場景模型動畫
+- 增加影片使相機在偵測到圖像追蹤的目標時相片的平面上有變化
 - 增加新場景（草原、高山）    
 
 

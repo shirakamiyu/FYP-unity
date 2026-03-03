@@ -8,6 +8,11 @@
 
   [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/shirakamiyu/FYP-unity)   
   
+### 故事圖片預覽
+
+![01.png](./img/image_tracker/01.png)
+- [場景圖片](./img/image_tracker)
+  
 <hr>
 
 > | Unity editor version: 6000.0.51 |   
@@ -36,6 +41,12 @@ APK file download: https://drive.google.com/drive/folders/12gVKVVvhTwfpDIvIvk0nN
 APP安裝包下載地址: https://drive.google.com/drive/folders/12gVKVVvhTwfpDIvIvk0nN38UfOLZo1QM?usp=sharing   
 
 <hr>
+
+
+### 應用圖片預覽
+![Screenshot_1.jpg.jpg](./img/screenshots/Screenshot_1.jpg)
+- [應用圖片](./img/screenshots)
+
 
 # 歷史版本咨詢
 
@@ -78,12 +89,7 @@ APP安裝包下載地址: https://drive.google.com/drive/folders/12gVKVVvhTwfpDI
 - 逐步完整所有場景模型動畫
 - 增加新場景（草原、高山）    
 
-### 圖片預覽
 
-![01.png](./image_tracker/01.png)
-- [場景圖片](./image_tracker)
-  
-- [應用圖片](./screenshots)
 
    
 <hr>

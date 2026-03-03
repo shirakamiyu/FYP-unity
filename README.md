@@ -1,19 +1,55 @@
 <div align="center">
 
-  # AR-Assisted Learning System
+  # AR輔助學習系統 / AR-Assisted Learning System
   
   以3D模型的方式呈現故事中的情節, 帶來**視覺與聽覺**的融合, 有助吸引孩子的興趣  
-  與背景場景結合的音效, 讓孩子可以身臨其境了解所在地  
-  以卡通風格設計的動物模型, 使孩子可以認識動物的特點 
+  每個場景將附有對應的旁白講解, 讓孩子可以清晰地了解所在地與動物的關聯  
+  以卡通風格設計的動物模型, 使孩子可以容易明白動物的特點 
 
+  <br>
+
+  Presenting the story's plot using 3D models brings a fusion of **visual and auditory** experiences, helping to capture children's interest.
+  Each scene will be accompanied by corresponding narration, allowing children to clearly understand the connection between the location and the animals.
+  The animal models, designed in a cartoon style, make it easy for children to understand the characteristics of the animals.
+  
+  <br>
+  
   [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/shirakamiyu/FYP-unity)   
-  
-### 故事圖片預覽
 
-![01.png](./img/image_tracker/01.png)
-- [場景圖片](./img/image_tracker)
-  
-<hr>
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯ ✦ ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+
+### 故事插圖預覽 / Story illustration preview
+
+![01.png](./img/image_tracker/01.png)   <br>
+
+**下載APP後，用戶只要將設備鏡頭對準故事插圖便會顯示對應的場景模型以及播放旁白**   
+-->> 更多圖片請前往 [📁 image_tracker](./img/image_tracker) 下載  <<--   
+<br>
+**After downloading the app, users simply need to point their device's camera at the story illustrations to display the corresponding scene models and play narration.**   
+-->> For more images, please visit [📁 image_tracker](./img/image_tracker) to download <<--   
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯ ✦ ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+
+## APP 安裝包下載 / APP installation package download
+
+· ** [**下載文件夾 / Download Folder**](https://drive.google.com/drive/folders/12gVKVVvhTwfpDIvIvk0nN38UfOLZo1QM?usp=sharing) ** ·
+
+### 下載建議 / Download Recommendations   
+
+請選擇版本號最高（最新）的檔案進行安裝   
+> 比如1.0.x.y，x的數字越大版本越新，y的數字越大版本錯誤越少
+
+Please select the file with the highest (latest) version number for installation.   
+> For example, 1.0.x.y. A larger number for x indicates a newer version, and a larger number for y indicates fewer bugs in the version.
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯ ✦ ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+
+### 應用圖片預覽 / Application Image Preview
+![Screenshot_1.jpg.jpg](./img/screenshots/Screenshot_1.jpg)   <br>
+
+-->> 更多應用界面請前往 [📁 screenshots](./img/screenshots) 預覽 <<--
+
+◈ ◈ ◈ ◈ ◈ ◈ ◈ ◈ ◈ ◈ ◈ ◈
 
 > | Unity editor version: 6000.0.51 |   
 > How to download the unity file of this AR project   
@@ -21,52 +57,43 @@
 > Remember that you also need to download the files in tag which is same as the title of branch that you downloaded  
 > Please put files of tag in correct file path that shown in tag
 
-<hr>
+━━━━━━━ ❖ ━━━━━━━
 
 > Note that the GitHub repository only contains Unity projects; the app installation package can be downloaded from the address below.   
 > 注意GitHub只包含unity項目，app安裝包需要在下方地址下載   
 
-<hr>
+━━━━━━━ ❖ ━━━━━━━
 
 > | Unity引擎版本: 6000.0.51 |  
 > 下載前請留意下載的版本（1.0.xx）  
 > 請根據對應分支名稱, 下載相應tag中的文件  
 > 將文件移動到正確的路徑避免項目出現錯誤
 
-<hr>
+◈ ◈ ◈ ◈ ◈ ◈ ◈ ◈ ◈ ◈ ◈ ◈
 
 </div>
 
-APK file download: https://drive.google.com/drive/folders/12gVKVVvhTwfpDIvIvk0nN38UfOLZo1QM?usp=sharing   
-APP安裝包下載地址: https://drive.google.com/drive/folders/12gVKVVvhTwfpDIvIvk0nN38UfOLZo1QM?usp=sharing   
 
-<hr>
+## 歷史版本咨詢
 
 
-### 應用圖片預覽
-![Screenshot_1.jpg.jpg](./img/screenshots/Screenshot_1.jpg)
-- [應用圖片](./img/screenshots)
-
-
-# 歷史版本咨詢
-
-## 1.0.13
+### 1.0.13
 重新設計應用UI, 包括
 - 按鈕
 - 美術元素
 - 開屏介紹
 - 切換效果
   
-## 1.0.14
+### 1.0.14
 - 音效試運行   
 - 為沙灘模型添加背景音樂
 
-## 1.0.15
+### 1.0.15
 - 界面上半部分重做  
 - 增設下拉式選項播放旁白，支援中英播放   
 - 相機界面上半部分會顯示當前播放的旁白
 
-## 1.0.16
+### 1.0.16
 - 修復中文文本無法顯示問題   
 - 修復每次切換主畫面重複顯示版本資訊問題   
 - 説明界面重做    
@@ -74,15 +101,15 @@ APP安裝包下載地址: https://drive.google.com/drive/folders/12gVKVVvhTwfpDI
 - 第一幕（沙灘場景）模型添加動畫
 - 優化UI
 
-## 1.0.17 
+### 1.0.17 
 - 優化界面切換邏輯
 - 增加新場景（貓貓屋子）    
 
-## 1.0.18
+### 1.0.18
 - 引入評分系統，連接數據庫
 - 增加新場景（非洲草原）    
 
-## 1.0.19 
+### 1.0.19 
 - UI優化3.0
 - 優化旁白播放邏輯，轉用中英文按鈕，根據已偵測場景切換播放源
 - 補全所有場景的中英文旁白

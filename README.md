@@ -45,7 +45,7 @@ Please select the file with the highest (latest) version number for installation
 ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯ ✦ ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
 
 ### 應用圖片預覽 / Application Image Preview
-![Screenshot_7.jpg.jpg](./img/screenshots/Screenshot_1.jpg)   <br>
+![Screenshot_7.jpg](./img/screenshots/Screenshot_7.jpg)   <br>
 
 -->> 更多應用界面請前往 [📁 screenshots](./img/screenshots) 預覽 <<--
 

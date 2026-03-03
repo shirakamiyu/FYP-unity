@@ -78,10 +78,11 @@ APP安裝包下載地址: https://drive.google.com/drive/folders/12gVKVVvhTwfpDI
 - 逐步完整所有場景模型動畫
 - 增加新場景（草原、高山）    
 
-### 下載圖片
+### 圖片預覽
 
+![01.png](./image_tracker/01.png)
 - [場景圖片](./image_tracker)
-- ![01.png](./image_tracker/01.png)
+  
 - [應用圖片](./screenshots)
 
    

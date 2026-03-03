@@ -13,6 +13,13 @@
 > Remember that you also need to download the files in tag which is same as the title of branch that you downloaded  
 > Please put files of tag in correct file path that shown in tag
 
+<hr>
+
+> Note that the GitHub repository only contains Unity projects; the app installation package can be downloaded from the address below.   
+> 注意GitHub只包含unity項目，app安裝包需要在下方地址下載   
+
+<hr>
+
 > | Unity引擎版本: 6000.0.51 |  
 > 下載前請留意下載的版本（1.0.xx）  
 > 請根據對應分支名稱, 下載相應tag中的文件  

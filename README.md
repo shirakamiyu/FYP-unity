@@ -9,8 +9,7 @@ cs script解釋
   - GameObject（對象），Button（按鈕），TextMeshProUGUI（文字），TMP_InputField（文字輸入框）等都是unity中的部件
 - Header（xxxx）
   - 沒有特別意義，增加可讀性來分類變量
-- void start()
-  - 啓動場景自動
+
 
 ------
 

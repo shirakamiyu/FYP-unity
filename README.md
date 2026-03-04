@@ -14,7 +14,7 @@ cs script解釋
 ------
 
 ### 📄<i> [ARRatingSystem.cs](./Assets/Model/script/ARRatingSystem.cs) </i>
-
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯ ✦ ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯   
 - void start()
   - 啓動場景將運行裏面的子程序
 - IEnumerator AutoShowRatingPanel()
@@ -59,7 +59,7 @@ cs script解釋
 ------
 
 ### 📄<i> [ChangeLanguage.cs](./Assets/Model/script/ChangeLanguage.cs) </i>   <sub><---嚴重屎山代碼根據地</sub>
-
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯ ✦ ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯  
 - void start()
   - 啓動場景時不顯示幫助界面
   - 默認場景顯示語言為英文
@@ -89,7 +89,7 @@ cs script解釋
 ------
 
 ### 📄<i> [MainUI.cs](./Assets/Model/script/MainUI.cs) </i>
-
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯ ✦ ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯  
 - private void Awake()
   - 不重要，防止出bug
 - private void Start()
@@ -105,7 +105,7 @@ cs script解釋
 ------
 
 ### 📄<i> [OpenManeger.cs](./Assets/Model/script/OpenManeger.cs) </i>
-
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯ ✦ ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯  
 - public static int SceneOpen = 0;
   - 全局變量
   - 用於主界面顯示版本訊息用
@@ -120,7 +120,7 @@ cs script解釋
 ------
 
 ### 📄<i> [SceneDetect.cs](./Assets/Model/script/SceneDetect.cs) </i>
-
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯ ✦ ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯  
 - void Update()
   - 每一幀都偵測
   - 如果在場景中有追蹤中的模型，currentTargetName = 該模型的名稱
@@ -129,7 +129,7 @@ cs script解釋
 ------
 
 ### 📄<i> [SceneDetectWithAudio.cs](./Assets/Model/script/SceneDetectWithAudio.cs) </i>
-
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯ ✦ ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯  
 - xxxx
   - xxx
 
@@ -137,7 +137,7 @@ cs script解釋
 ------
 
 ### 📄<i> [UIController.cs](./Assets/Model/script/UIController.cs) </i>
-
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯ ✦ ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯  
 - private void Awake()
   - 不重要，防止出bug
 - private void Start()

@@ -118,7 +118,8 @@ Please select the file with the highest (latest) version number for installation
 - 增加新場景（草原、高山）    
 
 
-
+-----
+ [📄 script解釋](https://github.com/shirakamiyu/FYP-unity/blob/v1.0.19/README.md)
    
 <hr>
 

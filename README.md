@@ -1,5 +1,4 @@
-施工中。。。。   
-cs script解釋
+# **** 都係唔識唔明就問ai，我都係問deepseek要點寫 ****
 
 ## 關於c#   
 - using xxxx
@@ -130,9 +129,34 @@ cs script解釋
 
 ### 📄<i> [SceneDetectWithAudio.cs](./Assets/Model/script/SceneDetectWithAudio.cs) </i>
 ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯ ✦ ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯  
-- xxxx
-  - xxx
-
+- void Start()
+  - 初始化播放音頻部件
+  - 為中英文播放按鈕增加監聽器
+- void Update()
+  - 用於更新畫面上方文字框文字
+- void CheckImageTargets()
+  - 將場景中所有ImageTarget加入到陣列中
+  - 偵測目標狀態，如果追蹤圖像中便更新Boolean
+  - 現在持續追蹤對象時會檢查是否沒有正在追蹤（isTracking）且與上一個追蹤對象不同會調用OnSceneDetected，更新Boolean變量（isTracking）和最後追蹤對象 <--- 拿住相機對著圖像顯示模型
+  - 如果正在追蹤，調用OnTrackingLost，更新更新Boolean變量（isTracking）<--- 沒有再對著圖像（失去追蹤）
+- void OnSceneDetected(string sceneName)
+  - （陣列内容早已于unity添加）檢查現在偵測到的場景名字在陣列中有沒有對應的
+  - 如果對應名字下的音頻不是空的，更新當前場景可以播放的音頻為該音頻，啓動按鈕可以按下播放
+  - 否則按鈕不能按下，音頻清空
+- void OnTrackingLost()
+  - 失去追蹤對象，取消啓動按鈕
+  - 停止場景背景音樂
+- void PlayChineseAudio()
+  - 音頻不是空的便播放中文旁白
+- void PlayEnglishAudio()
+  - 音頻不是空的便播放英文旁白
+- void PlayAudio(AudioClip clip, string language)
+  - 如果當前有音頻播放便停止該音頻
+  - 播放新音頻
+- void UpdateUI(string message)
+  - 更新畫面上方文字框文字
+- void SetButtonsInteractable(bool interactable)
+  - 更新中英文旁白播放按鈕狀態
  
 ------
 

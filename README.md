@@ -118,8 +118,6 @@ Please select the file with the highest (latest) version number for installation
 - 增加新場景（草原、高山）    
 
 
------
- [📄 script解釋](https://github.com/shirakamiyu/FYP-unity/blob/v1.0.19/README.md)
    
 <hr>
 
@@ -143,5 +141,6 @@ Please select the file with the highest (latest) version number for installation
 
 <hr>
 
-<sub>評分系統，連接DB >>> ITP4903，ITP4922 >>> 透過家中電腦作爲數據庫服務器接收評分及意見，以端口轉發使外部網絡能夠訪問（數據庫以XAMPP的MyPHPadmin運行）    
+<sub> [📄 script解釋](https://github.com/shirakamiyu/FYP-unity/blob/v1.0.19/README.md)   
+  評分系統，連接DB >>> ITP4903，ITP4922 >>> 透過家中電腦作爲數據庫服務器接收評分及意見，以端口轉發使外部網絡能夠訪問（數據庫以XAMPP的MyPHPadmin運行）    
 限制域名訪問SDK（Vuforia，ARCore） >>> </sub>

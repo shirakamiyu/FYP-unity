@@ -48,6 +48,7 @@ Please select the file with the highest (latest) version number for installation
 ![Screenshot_7.jpg](./img/screenshots/Screenshot_7.jpg)   <br>
 
 -->> 更多應用界面請前往 [📁 screenshots](./img/screenshots) 預覽 <<--
+-->> Visit [📁 screenshots](./img/screenshots) for more preview <<--
 
 ◈ ◈ ◈ ◈ ◈ ◈ ◈ ◈ ◈ ◈ ◈ ◈
 
@@ -74,7 +75,7 @@ Please select the file with the highest (latest) version number for installation
 </div>
 
 
-## 歷史版本咨詢
+## 歷史版本咨詢 / Version History
 
 <details>
 <summary><b>1.0.13</b> - UI 重新設計</summary>

@@ -32,7 +32,7 @@
 
 ## APP 安裝包下載 / APP installation package download
 
-· ** [**下載文件夾 / Download Folder**](https://drive.google.com/drive/folders/12gVKVVvhTwfpDIvIvk0nN38UfOLZo1QM?usp=sharing) ** ·
+· ** [**下載文件夾 / Download Folder**](./apk) ** ·
 
 ### 下載建議 / Download Recommendations   
 

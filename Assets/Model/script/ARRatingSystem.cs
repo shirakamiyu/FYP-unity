@@ -7,8 +7,8 @@ using TMPro;
 public class ARRatingSystem : MonoBehaviour
 {
     [Header("Server setting")]
-    public string hostName = "shirakamiyu.asuscomm.com";
-    public int httpsPort = 8444;
+    public string hostName = "203.132.203.17";
+    public int httpsPort = 10443;
     public bool useHTTPS = true;
 
     [Header("UI - TextMeshPro")]
@@ -92,7 +92,7 @@ public class ARRatingSystem : MonoBehaviour
 
         if (connectionStatus != null)
         {
-            connectionStatus.text = "using HTTPS 8444 port";
+            connectionStatus.text = "using HTTPS 10444 port";
             connectionStatus.color = Color.blue;
         }
     }
@@ -104,7 +104,7 @@ public class ARRatingSystem : MonoBehaviour
         connectionStatus.color = Color.yellow;
         connectionStatus.text = "testing HTTPS connect...";
 
-        string testURL = $"https://{hostName}:{httpsPort}/applications.html";
+        string testURL = $"https://{hostName}:{httpsPort}";
 
         using (UnityWebRequest www = UnityWebRequest.Get(testURL))
         {
@@ -211,7 +211,7 @@ public class ARRatingSystem : MonoBehaviour
 
             if (www.result == UnityWebRequest.Result.Success)
             {
-                // ½âÎöí‘‘ªÒÔ«@µÃ¸ü¶àÐÅÏ¢
+                // ï¿½ï¿½ï¿½ï¿½í‘‘ï¿½ï¿½Ô«@ï¿½Ã¸ï¿½ï¿½ï¿½ï¿½ï¿½Ï¢
                 string responseText = www.downloadHandler.text;
                 Debug.Log("Server response: " + responseText);
 
@@ -278,7 +278,7 @@ public class ARRatingSystem : MonoBehaviour
             hideButton.gameObject.SetActive(true);
             ResetRatingUI();
             StartCoroutine(TestConnection());
-            hasShown = true; // ˜ËÓ›žéÒÑï@Ê¾
+            hasShown = true; // ï¿½ï¿½Ó›ï¿½ï¿½ï¿½ï¿½ï¿½@Ê¾
         }
     }
 

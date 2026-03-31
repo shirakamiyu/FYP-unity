@@ -20,7 +20,8 @@ public class SceneDetectWithAudio : MonoBehaviour
 
     // UI 
     [Header("UI")]
-    public TextMeshProUGUI statusDisplayText; // Text used to display the current recognition status (Optional)
+    public TextMeshProUGUI statusDisplayText; // Display playback status (playing narration)
+    public TextMeshProUGUI showState; // Display AR recognition status (detected, lost, etc.)
     public Button chinesePlayButton;
     public Button englishPlayButton;
 
@@ -42,11 +43,15 @@ public class SceneDetectWithAudio : MonoBehaviour
 
         if (englishPlayButton != null)
             englishPlayButton.onClick.AddListener(PlayEnglishAudio);
-        // disenable button when start
+
+        // Disable buttons when start
         SetButtonsInteractable(false);
 
-        // initial state
-        UpdateUI("Initial state...");
+        // initial state - show on showState
+        UpdateARState("Initial state...");
+
+        // stop playing
+        UpdatePlaybackStatus("");
     }
 
     void Update()
@@ -99,7 +104,12 @@ public class SceneDetectWithAudio : MonoBehaviour
     void OnSceneDetected(string sceneName)
     {
         Debug.Log($"Scene recognition: {sceneName}");
-        UpdateUI($"{sceneName}");
+
+        // show AR state
+        UpdateARState($"{sceneName}");
+
+        // stop playing��because of scene change��
+        UpdatePlaybackStatus("");
 
         // Find and set the corresponding audio
         SceneAudioData data = audioDatabase.Find(d => d.sceneName == sceneName);
@@ -120,13 +130,20 @@ public class SceneDetectWithAudio : MonoBehaviour
             SetButtonsInteractable(false);
             currentChineseClip = null;
             currentEnglishClip = null;
+            UpdateARState($"Audio of {sceneName} not found");
         }
     }
 
     void OnTrackingLost()
     {
         Debug.Log("Target lost");
-        UpdateUI("Target lost...");
+
+        // show AR state
+        UpdateARState("Target lost...");
+
+        // stop playing
+        UpdatePlaybackStatus("");
+
         SetButtonsInteractable(false);
 
         // Stop the currently playing audio
@@ -161,10 +178,21 @@ public class SceneDetectWithAudio : MonoBehaviour
         audioSource.Play();
 
         Debug.Log($"Playing {language} narration: {clip.name}");
-        UpdateUI($"Playing {language} narration...");
+
+        UpdatePlaybackStatus($"Playing {language} narration...");
     }
 
-    void UpdateUI(string message)
+    // Update AR state��target loss��- for showState
+    void UpdateARState(string message)
+    {
+        if (showState != null)
+        {
+            showState.text = message;
+        }
+    }
+
+    // Update playing state - for statusDisplayText
+    void UpdatePlaybackStatus(string message)
     {
         if (statusDisplayText != null)
         {

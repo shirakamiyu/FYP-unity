@@ -169,5 +169,5 @@ Please select the file with the highest (latest) version number for installation
 <hr>
 
 
-<sub> [📄 script解釋](https://github.com/shirakamiyu/FYP-unity/blob/v1.0.19/README.md)   
+<sub> [📄 script解釋](https://github.com/shirakamiyu/FYP-unity/blob/1.0.19/README-Code.md)   
   評分系統，連接DB >>> 透過家中電腦作爲數據庫服務器接收評分及意見，以端口轉發使外部網絡能夠訪問（數據庫以XAMPP的MyPHPadmin運行）    
